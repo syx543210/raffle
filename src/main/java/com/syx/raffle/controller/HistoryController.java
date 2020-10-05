@@ -67,7 +67,7 @@ public class HistoryController {
             endDate= DateUtils.getBeforeDay(-1);//昨天
             startDate = DateUtils.getBeforeDay(-7);
             Map dataMap = historyService.getRangeTerm(startDate,endDate);
-            dataMap.put("title","近7天数据");
+            dataMap.put("title","近7天数据1");
             return dataMap;
         }
 
